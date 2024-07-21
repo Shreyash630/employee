@@ -41,7 +41,7 @@ app.use(session({
     },
     store: MongoStore.create(
         {
-            mongoUrl: 'mongodb://localhost/ers',
+            mongoUrl: 'mongodb+srv://singhshreyash466:123@cluster0.cd9nwhd.mongodb.net/employeereview',
             mongooseConnection: db,
             autoRemove: false
         },
